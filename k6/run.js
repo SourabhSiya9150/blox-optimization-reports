@@ -8,13 +8,13 @@ export const options = {
     duration: '1m'
 };
 
-let endpoint = '/dimension/31428/items/properties?scenario_id=13146';
+let endpoint = '/dimension/31730/items/properties?scenario_id=13146';
 
 export default function () {
-    const url = `http://127.0.0.1:5000/${endpoint}`;
+    const url = `https://gamma.api.blox.so${endpoint}`;
 
     const headers = {
-        'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDE1NiwiZXhwIjoxNzE1NjQ2NjI3fQ.Pui3-3J30iHy-ff6G1-z-lUkd7yTRl6nPHeejRgJ0hU',
+        'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDE1NiwiZXhwIjoxNzE2MzU4MjYyfQ.43p4FRfqSCLebym6hlFkczjxbNt7BRihoOik7cQTPm4'
         // 'Cookie': 'session=.eJxFT1tvgjAY_S99FtIPSgHfHDMTNrpAMiS-GKp1Fli9UAN22X9f3cteTnJyLjnnG13F5SYGvZV7NEd7aA5xTKgTAucOAYqdGFvgHPuU0gjTJkKz_4zaavkl0BxC8H0_iCihQeSGHg5mSJ86oWynuGdY1Av5LrPXCgr5lmRH_rJ78PTDpMBkFrvWBDuvutde36Xtacqfl1YY5aY-jg_OzNIw8znlbT4eCtdUY3Imcdm1tF8l6_J8UbhJp6HcMM_069UTcxTRWjWLws69DeL69w8wBPTnF21VTME.Zh9uXQ.bLaBHxlFjAx6m7zzFWu_1bNk-AY'
     }
 
