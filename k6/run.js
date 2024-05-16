@@ -14,7 +14,7 @@ export default function () {
     const url = `https://gamma.api.blox.so${endpoint}`;
 
     const headers = {
-        'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDE1NiwiZXhwIjoxNzE2MzU4MjYyfQ.43p4FRfqSCLebym6hlFkczjxbNt7BRihoOik7cQTPm4'
+        'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDE1NiwiZXhwIjoxNzE2MzM3ODQyfQ.CV5sOdzdvWWiruMSTXlq14IBFnBggo6IWVuO9SZnrl0'
         // 'Cookie': 'session=.eJxFT1tvgjAY_S99FtIPSgHfHDMTNrpAMiS-GKp1Fli9UAN22X9f3cteTnJyLjnnG13F5SYGvZV7NEd7aA5xTKgTAucOAYqdGFvgHPuU0gjTJkKz_4zaavkl0BxC8H0_iCihQeSGHg5mSJ86oWynuGdY1Av5LrPXCgr5lmRH_rJ78PTDpMBkFrvWBDuvutde36Xtacqfl1YY5aY-jg_OzNIw8znlbT4eCtdUY3Imcdm1tF8l6_J8UbhJp6HcMM_069UTcxTRWjWLws69DeL69w8wBPTnF21VTME.Zh9uXQ.bLaBHxlFjAx6m7zzFWu_1bNk-AY'
     }
 
